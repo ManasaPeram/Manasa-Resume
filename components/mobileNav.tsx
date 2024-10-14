@@ -21,7 +21,8 @@ export const menu =[
     {
         name:'Contact',
         href :'/#Contact'
-    }
+    },
+   
 
 ]
 
@@ -32,7 +33,7 @@ const MobileNav = () => {
         <Menu className='size-8 text-blue '/>
     </SheetTrigger>
     <SheetContent>
-        <div className='mb-40 mt-32 flex items-center justify-center gap-8 '>
+        <div className='mb-10 mt-32 flex items-center justify-center gap-8 '>
            <Link href='/'><Image src='/logo.png' height={60.53} width={47.35} alt='logo'/></Link>
         </div>
         <nav className='mt-8 flex flex-col items-center justify-center gap-8'>
@@ -41,9 +42,23 @@ const MobileNav = () => {
                 <Link href={item.href} key={index} className='text-lg font-medium capitalize'>
                     <span className='pb-2 transition-all hover:border-b-2 hover:border-blue hover:text-blue'>{item.name}</span>
                 </Link>
+                
             ))
           }
+
+          
+<a 
+              href='tel:+918340947374' 
+              className='text-md rounded-full bg-blue px-6 py-2 font-medium text-white transition-all hover:bg-blue/80 ml-3'
+            >
+              Hire me
+            </a>
+
+
         </nav>
+
+        
+          
     </SheetContent>
    </Sheet>
   )
