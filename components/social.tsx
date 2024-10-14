@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { FaGithub, FaYoutube, FaStackOverflow } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
 const socialLinks = [
   {
@@ -8,8 +8,8 @@ const socialLinks = [
     path: "https://github.com/ManasaPeram",
   },
   {
-    icons: <FaGithub />,
-    path: "https://github.com/ManasaPeram",
+    icons: <FaLinkedin />,
+    path: "https://www.linkedin.com/in/peram-manasa-771a58220/",
   },
   {
     icons: <FaStackOverflow />,

@@ -17,21 +17,9 @@ const Angel = () => {
               <span className="under-line ">Peram</span>
             </h1>
             <div className="py-8">
-              <p>
-                Dedicated and seasoned Fullstack Developer with around 2 years
-                of comprehensive experience, proficiently navigating the entire
-                software development life cycle. Possessing expertise in
-                front-end technologies, I have successfully contributed to the
-                design, development, and deployment of robust and scalable
-                applications. Skilled in utilizing a diverse technology stack,
-                including but not limited to React JS, Next JS, Node JS, NestJs,
-                SharePoint, and Microsoft Power Platform. Adept at solving
-                complex problems, implementing innovative solutions, and
-                ensuring seamless integration across various platforms.
-                Demonstrated ability to deliver high-quality, user-centric
-                software, with a strong commitment to continuous learning and
-                staying abreast of emerging industry trends.
-              </p>
+            <p>
+            Fullstack Developer with 2 years of experience in designing, developing, and deploying scalable applications. Proficient in React, Next.js, Node.js, NestJS, SharePoint, and Microsoft Power Platform. Skilled at solving problems and delivering user-focused software, with a commitment to continuous learning and staying updated on industry trends.
+            </p>
             </div>
             <div className="mt-4 flex flex-col items-center justify-center xl:flex-row xl:justify-start ">
              <div className="flex gap-x-2">

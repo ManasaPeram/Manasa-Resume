@@ -19,27 +19,27 @@ const Services = () => {
               What we do i help?
             </h1>
             <p>
-              We specialize in providing comprehensive assistance across various
-              domains. Our commitment is to ensure that our clients receive the
-              necessary support promptly and effectively. With a dedicated team
-              and a client-centric approach, we strive to address challenges,
-              deliver solutions, and enhance overall satisfaction.
+              Specialize in providing comprehensive assistance and support
+              across multiple areas, ensuring client needs are met efficiently.
+              Focused on delivering solutions, overcoming challenges, and
+              enhancing client satisfaction with a dedicated, client-centric
+              approach.
             </p>
             <div className="flex justify-between space-x-4 py-8  ">
               <div className="flex flex-col items-center justify-center ">
-                <p className="text-lg font-semibold uppercase"> Projects</p>
+                <p className="text-[10px] font-semibold uppercase"> Projects</p>
                 <p className="text-[36px] font-bold text-blue ">
                   {" "}
-                  + <AnimatedCounter from={0} to={20} />
+                  + <AnimatedCounter from={0} to={10} />
                 </p>
               </div>
 
               <div className="flex flex-col items-center justify-center ">
-                <p className="text-lg font-semibold uppercase">
+                <p className="text-[10px] font-semibold uppercase">
                   {" "}
                   satisfied client
                 </p>
-                <p className="text-[36px] font-bold text-blue "> 10</p>
+                <p className="text-[36px] font-bold text-blue ">6</p>
               </div>
             </div>
           </motion.div>
@@ -52,8 +52,10 @@ const Services = () => {
                   Front-end development
                 </h2>
                 <p>
-                  Convert your Figma/XD design to full responsive web app with
-                  react/next js or supabase or HTML with tailwind css
+                  Experienced in transforming Figma designs into responsive web
+                  apps using React and NextJS, Tailwind CSS. Dedicated to
+                  delivering clean, user-friendly interfaces that are accessible
+                  across all devices.
                 </p>
               </div>
             </div>
@@ -65,8 +67,27 @@ const Services = () => {
                   Back-end development
                 </h2>
                 <p>
-                  build your full web app with cutting-edge web development
-                  technologies
+                  Experienced in back-end development using Node.js with various
+                  databases. Proficient in NestJS, having created multiple APIs
+                  to support complex functionalities. I have implemented various
+                  logic, including relationships and data management, and I find
+                  back-end development to be highly rewarding.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center spac-x-6 bg-primary p-4">
+              <p className="text-6xl font-bold text-blue">03</p>
+              <div>
+                <h2 className="mb-2 text-2xl font-bold">
+                  Full Stack developer
+                </h2>
+                <p>
+                  Experienced in full-stack development, utilizing React and
+                  Next.js for responsive front-end applications, and Node.js
+                  with NestJS for back-end API development. Passionate about
+                  building efficient, user-friendly solutions and managing
+                  complex data relationships.
                 </p>
               </div>
             </div>
