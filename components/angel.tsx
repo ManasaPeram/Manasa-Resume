@@ -11,7 +11,7 @@ const Angel = () => {
         <div className="flex flex-col items-center justify-between gap-10 xl:flex-row xl:pt-8 ">
           {/* text */}
           <div className="text-center  xl:text-left ">
-            <span>Hello I'm </span>
+            <span>Hello I am </span>
             <h1 className="text-[40px] font-bold leading-[3rem]">
               Manasa <br />
               <span className="under-line ">Peram</span>

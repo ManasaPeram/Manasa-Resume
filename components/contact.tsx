@@ -113,7 +113,7 @@ const Contact = () => {
           className='mb-12 mr-6 flex items-center py-6'
         >
           <h1 className='text-[40px] font-bold uppercase leading-[3rem]'>
-            let's work <br /> <span className='under-line'>together</span>
+            let`&lsquo;`s work <br /> <span className='under-line'>together</span>
           </h1>
         </motion.div>
         <motion.form
