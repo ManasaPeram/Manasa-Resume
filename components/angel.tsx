@@ -18,7 +18,7 @@ const Angel = () => {
             </h1>
             <div className="py-8">
             <p>
-            Fullstack Developer with 2 years of experience in designing, developing, and deploying scalable applications. Proficient in React, Next.js, Node.js, NestJS, SharePoint, and Microsoft Power Platform. Skilled at solving problems and delivering user-focused software, with a commitment to continuous learning and staying updated on industry trends.
+            Fullstack Developer with 2+ years of experience in designing, developing, and deploying scalable applications. Proficient in React, Next.js, Node.js, NestJS, SharePoint, and Microsoft Power Platform. Skilled at solving problems and delivering user-focused software, with a commitment to continuous learning and staying updated on industry trends.
             </p>
             </div>
             <div className="mt-4 flex flex-col items-center justify-center xl:flex-row xl:justify-start ">

@@ -137,11 +137,11 @@ const Photo = () => {
           className=' absolute z-50 '
         >
           <Image
-            src="/angel/image.png"
-            height={350}
-            width={350}
+            src="/angel/pp.jpg"
+            height={250}
+            width={300}
             alt="profile"
-            className="inset-0 lg:ml-32  lg:mt-10 z-50 object-contain xl:translate-y-[3px] rounded-full"
+            className="inset-0 lg:ml-28  lg:mt-24 z-50 object-contain xl:translate-y-[3px] rounded-full"
             quality={100}
           />
         </motion.div>
